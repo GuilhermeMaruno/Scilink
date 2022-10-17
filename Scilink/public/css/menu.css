@@ -1,0 +1,27 @@
+body {
+  font-family: 'Rhodium Libre';
+  background: white;
+  overflow: auto;
+
+}
+
+.introducao2 {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.introducao2 label {
+  margin-left: 20px;
+
+}
+
+@media only screen and (min-width: 980px) and (max-width: 4000px) {
+  .cadastro {
+    margin-top: 70px;
+    margin-left: 270px;
+  }
+}
+
+.footer {
+  margin-top: 680px;
+}
