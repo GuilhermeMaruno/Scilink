@@ -22,16 +22,20 @@
 </head>
 
 <body>
-    <?php session_start(); ?>
+	<?php 
+	if(!isset($_SESSION)) {
+    session_start();
+	} ?>
+
 	<header class="header">
 		<div class="container">
 			<a href="telaPrincipal.php" class="grid-2">
 				<img src="..\..\public\img\desafio\logoheader.svg" alt="Menu">
 			</a>
 			<div class="grid-8 header_menu">
-				<form class="search-container">
-					<input type="search" id="search-bar" placeholder="Busca">
-					<a href="#"><img class="search-icon" src="..\..\public\img/desafio/lupa.png"></a>
+				<form class="search-container" action="../Models/Filtro.php" method="POST" target="meio">
+					<input type="text" id="search-bar" name="busca" placeholder="Busca">
+					<a href=""><img class="search-icon" src="..\..\public\img/desafio/lupa.png"></a>
 				</form>
 			</div>
 			<div class="box grid-1">
@@ -51,7 +55,7 @@
 						<li><a href="#"><?php echo $_SESSION['nome']; ?></a>
 							<ul class="submenu">
 								<li><a href="#">Editar Informações</a>
-								<li><a href="#">Sair da conta</a>
+								<li><a href="telaLogin.php">Sair da conta</a>
 							</ul>
 						</li>
 					</ul>
@@ -59,6 +63,14 @@
 			</div>
 		</div>
 	</header>
+
+	<section class="produtos container fadeInDown" data-anime="1600">
+
+		<iframe class="produtos container fadeInDown" id="meio" name="meio">
+
+		</iframe>
+
+	</section>
 
 	<footer>
 		<div class="footer">
@@ -96,4 +108,6 @@
 </body>
 
 </html>
+
+
 
