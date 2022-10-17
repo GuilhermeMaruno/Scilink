@@ -1,6 +1,7 @@
 Funções implementadas:
 Cadastro
 Login
+Alterar Cadastro -Falta a tela
 
 
 Usuários teste:
