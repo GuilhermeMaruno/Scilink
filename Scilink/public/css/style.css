@@ -575,39 +575,12 @@ label[for='bt_menu']:hover {
 
 /*Produtos*/
 
-/*Produtos*/
-
 .produtos {
-	padding: 60px 0;
-	padding-top: 150px;
+	padding: 2% 0;
+
+
 }
 
-.produtos img {
-	padding-bottom: 10px;
-}
-
-.produtos .botão {
-	padding: 10px 60px;
-}
-
-.produtos label {
-	font-family: 'Nunito';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 24px;
-	line-height: 33px;
-	/* identical to box height */
-
-
-	color: #FFFFFF;
-}
-
-.produtos_lista li {
-	background: #004040;
-	text-align: center;
-	color: white;
-	padding-bottom: 10px;
-}
 
 .produtos_lista li img {
 	margin: 0 auto;
@@ -620,27 +593,15 @@ label[for='bt_menu']:hover {
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	margin-top: 20px;
-	color: #04E1FA;
 }
 
-.produtos_lista li h3:after {
-	content: "";
-	display: block;
-	width: 60px;
-	height: 3px;
-	background: #000;
-	margin: 2px auto;
-}
+
 
 .produtos_lista li p {
-	padding: 10px 20px 5px 20px;
-	text-align: left;
+	padding: 10px 20px 20px 20px;
 }
 
-.produtos_icone {
-	background: #000;
-	padding: 20px;
-}
+
 
 .call {
 	padding-top: 40px;
@@ -752,9 +713,23 @@ label[for='bt_menu']:hover {
 	padding: 20px 0;
 }
 
+.footer h3 {
+	font-size: 18px;
+	line-height: 25px;
+	color: #fec63e;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
 
-
-
+.footer h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fec63e;
+	margin: 6px 0 12px 0;
+}
 
 .footer_historia {
 	font-family: 'Rhodium Libre';
