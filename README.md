@@ -1,7 +1,7 @@
 Funções implementadas:
-Cadastro
-Login
-Alterar Cadastro -Falta a tela
+Cadastro;
+Login;
+Alterar Cadastro -Falta a tela;
 
 
 Usuários teste:
