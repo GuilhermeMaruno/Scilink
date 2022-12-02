@@ -1,0 +1,32 @@
+.filtro {
+    width: 340px;
+}
+
+.footer {
+    margin-top: 150px;
+}
+
+.introducao2 h1 {
+    font-family: 'Rhodium Libre', sem serifa;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 41px;
+    color: #004040;
+    margin-top: -20px;
+    margin-left: 5px;
+    margin-bottom: -10px;
+}
+
+#detalhe {
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+    background: #04E1FA;
+    border-radius: 4px;
+    margin-top: 60px;
+}
+
+.completa{
+    margin-top: 250px;
+}
